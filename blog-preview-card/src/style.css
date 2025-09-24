@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-customYellow: hsl(47, 88%, 63%);
+  --color-custom-White: hsl(0, 0%, 100%);
+  --color-customGray500: hsl(0, 0%, 42%);
+  --color-customGray950: hsl(0, 0%, 7%);
+}
+
+@layer base {
+  body {
+    font-family: "Figtree", sans-serif;
+    font-size: 1rem;
+  }
+}
+
+@layer utilities {
+  .shadow-custom {
+    box-shadow: 8px 8px var(--color-customGray950);
+  }
+}

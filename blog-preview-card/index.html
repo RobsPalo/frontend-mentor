@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./src/style.css" />
+    <title>blog-preview-card</title>
+  </head>
+  <body>
+    <main class="min-h-screen w-full flex items-center justify-center bg-customYellow">
+      <section>
+        <article class="border border-customGray950 rounded-[20px] bg-custom-White mx-6 p-6 max-w-sm shadow-custom lg:max-w-[384px]">
+          <img class="w-full h-[200px] rounded-[10px] object-cover mb-6"
+            src="./src/assets/images/illustration-article.svg" 
+            alt="Abstract Illustration Article"
+          />
+          <span class="text-xs font-extrabold text-customGray950 leading-[150%] py-1 px-3 bg-customYellow w-[73px] mb-3 rounded-[5px] lg:text-[14px] lg:mb-[14px]">Learning</span>
+          <time datetime="2023-12-21" class="block text-xs font-medium text-customGray950 leading-[150%] lg:text-[14px] mt-3">Published 21 Dec 2023</time>
+          <h1 class="text-xl font-extrabold  text-customGray950 leading-[150%] my-3 hover:text-customYellow cursor-pointer lg:text-2xl">HTML & CSS foundations</h1>
+          <p class="text-[14px] font-medium text-customGray500 leading-[150%] mb-6 lg:text-[16px]">
+            These languages are the backbone of every website, defining
+            structure, content, and presentation.
+          </p>
+          <div class="flex items-center gap-3">
+            <img class="w-8 h-8"
+              src="./src/assets/images/image-avatar.webp"
+              alt="Greg Hooper Profile Picture"
+            />
+            <span class="text-[14px] font-extrabold leading-[150%]">Greg Hooper</span>
+          </div>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
