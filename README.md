@@ -6,7 +6,7 @@ This is my Frontend Mentor implementations repository. This repository contains 
 
 You can find each project in its own folder and access the deployed version through GitHub Pages. Below are some examples:
 
-- **[Blog Preview Card](docs/blog-preview-card/)** – A responsive blog preview card built with Tailwind CSS.
+- **[Blog Preview Card](blog-preview-card/)** – A responsive blog preview card built with Tailwind CSS.
 - More projects will be added as I complete new challenges.
 
 ## How to View Projects
