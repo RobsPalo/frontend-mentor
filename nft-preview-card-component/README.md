@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My FrontendMentor solution](https://)
+- Solution URL: [My FrontendMentor solution]([https://](https://www.frontendmentor.io/solutions/nft-preview-card-v2-with-tailwindcss-utKxVbI3yN))
 - Live Site URL: [Live Site GitHub Pages](https://robspalo.github.io/frontend-mentor/nft-preview-card-component/)
 
 ## Author
