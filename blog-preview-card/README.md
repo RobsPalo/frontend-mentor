@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My FrontendMentor solution](https://)
+- Solution URL: [My FrontendMentor solution](https://www.frontendmentor.io/solutions/blog-preview-card-v2-with-tailwindcss-_YtXMkEYNQ)
 - Live Site URL: [Live Site GitHub Pages](https://robspalo.github.io/frontend-mentor/blog-preview-card/)
 
 ## My process
