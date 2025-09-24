@@ -17,6 +17,8 @@ main{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
 
 }
 .card{
@@ -33,7 +35,7 @@ main{
 }
 .card img{
     display: block;
-    height: 25rem;
+    height: 35rem;
     width: 100%;
     border-radius: 10px;
 }
