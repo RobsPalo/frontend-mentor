@@ -1,0 +1,75 @@
+/*--------Outfit Font--------*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+/*--Reset CSS--*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{  
+  font-size: 62.5%;
+  --White: hsl(0, 0%, 100%);
+  --Slate300: hsl(212, 45%, 89%);
+  --Slate500: hsl(216, 15%, 48%);
+  --Slate900: hsl(218, 44%, 22%);
+  --Weight500: 500;
+  --Weight700: 700;
+}
+
+body{
+    font-family: "Outfit", sans-serif;
+    font-size: 1.6rem;
+}
+
+/*------Mobile-------------*/
+main{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Slate300);
+}
+
+.qrcode{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.6rem 1.6rem 4rem 1.6rem;
+    border-radius: 2rem;
+    background-color: var(--White);
+    max-width: 32rem;
+    width: 100%;
+}
+
+.qrcode__img{
+    width:28.8rem;
+    height:28.8rem;
+    object-fit: cover;
+    margin-bottom: 2.4rem;
+    border-radius: 1rem;
+}
+
+.qrcode__info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1.6rem;
+    text-align: center;
+}
+
+.qrcode__info-title{
+    font-size: 2.2rem;
+    line-height: 120%;
+    font-weight: var(--Weight700);
+    margin-bottom: 1.6rem;
+    color: var(--Slate900);
+}
+
+.qrcode__info-text{
+    font-size: 1.5rem;
+    line-height: 140%;
+    font-weight: var(--Weight50000);
+    color: var(--Slate500);
+    letter-spacing: 0.2px;
+}
+
