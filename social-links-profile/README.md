@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My FrontendMentor solution](https://your-solution-url.com)
+- Solution URL: [My FrontendMentor solution](https://www.frontendmentor.io/solutions/social-links-profile-v2-with-tailwindcss-XukQzAm79V)
 - Live Site URL: [Live Site Url](https://robspalo.github.io/frontend-mentor/social-links-profile/)
 
 ## My process
