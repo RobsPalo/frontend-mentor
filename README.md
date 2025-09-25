@@ -9,6 +9,9 @@ You can find each project in its own folder and access the deployed version thro
 - **[Blog Preview Card](blog-preview-card/)** – A responsive blog preview card.
 - **[Nft Preview Card](nft-preview-card-component/)** – A responsive NFT preview card.
 - **[Social Links Profile](social-links-profile/)** – A responsive social links profile card.
+- **[Qr Code component](qr-code-component/)** – A responsive qr code card.
+- **[Order Summary Component](order-summary-component/)** – A responsive order summary card.
+- **[Single Price Grid Component](single-price-grid-component/)** – A responsive price card.
 - More projects will be added as I complete new challenges.
 
 ## How to View Projects

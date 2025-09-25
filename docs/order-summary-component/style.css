@@ -1,0 +1,219 @@
+/*---------------Reset Css------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+/*-------------Variables---------------------*/
+:root{
+    font-size: 62.5%;
+    --Blue100: hsl(225, 100%, 94%);
+    --Blue700: hsl(245, 75%, 52%);
+    --Blue50: hsl(225, 100%, 98%);
+    --Gray600: hsl(224, 23%, 55%);
+    --Blue950: hsl(223, 47%, 23%);
+    --white:#FFF;
+    --Weight500:500;
+    --Weight700:700;
+    --Weight900:900;
+    
+}
+
+/*-------------Base Style---------------------*/
+body{
+    font-size: 1.6rem;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    text-align: center;
+    background-image: url(./images/pattern-background-mobile.svg) ;
+    background-repeat: no-repeat;
+    background-color: var(--Blue100);
+    background-size: contain;
+
+}
+
+.order-card{
+    margin: 0 2.4rem;
+    border-radius: 2rem;
+    overflow: hidden;
+    max-width: 32.7rem;
+}
+
+.order-card--img{
+    max-height: 16rem;
+    width: 100%;  
+}
+.order-card--wrapper{
+    background-color: #FFF;
+    padding: 3.2rem 0;
+    display: flex;
+    flex-direction: column;
+
+}
+.order-card--title{
+    font-size: 2.2rem;
+    color: var(--Blue950);
+    font-weight: var(--Weight900);
+    padding: 0 3.2rem;
+}
+
+.order-card--info{
+    font-size: 1.5rem;
+    font-weight: var(--Weight500);
+    color: var(--Gray600);
+    line-height: 2.5rem;
+    margin: 1.6rem 0 2.4rem 0;
+    padding: 0 3.2rem;
+}
+
+.order-card--reminder{
+    display: flex;
+    padding: 1.7rem;
+    background: #F7F9FF;
+    border-radius: 10px;
+    overflow: hidden;
+    align-items: center;
+    margin: 0 2.4rem 2.4rem 2.4rem;
+    justify-content: center;
+}
+
+.order-card--price{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 4rem;
+    gap: 0.5rem;
+}
+
+.icon-music{
+    width: 4.8rem;
+    height: 4.8rem;
+    margin-right: 2rem;
+}
+
+.order-card--plan{
+    font-size: 1.4rem;
+    color: var(--Blue950);
+    font-weight: var(--Weight900);
+    gap: 3px;
+}
+
+.order-card--total{
+    font-size: 1.4rem;
+    color: var(--Gray600);
+    font-weight: var(--Weight500);
+}
+
+.order-card--change-btn{
+    text-decoration: underline;
+    font-size: 1.3rem;
+    color: var(--Blue700);
+    font-weight: var(--Weight900);
+}
+.order-card--change-btn:hover{
+    color: var(--Blue950);
+}
+.order-card__buttons{
+    display: flex;
+    flex-direction: column; 
+    margin: 0 2.4rem;
+}
+
+.order-card--btn-pay{
+    padding: 1.5rem 6.4rem;
+    background: var(--Blue700);
+    font-size: 1.5rem;
+    color: var(--white);
+    font-weight: var(--Weight900);
+    border-radius: 10px;
+    margin-bottom: 2.4rem;
+}
+
+.order-card--btn-pay:hover{
+    background: var(--Blue950);
+
+}
+
+.order-card--btn-cancel{
+    font-size: 1.5rem;
+    color: var(--Gray600);
+    font-weight: var(--Weight900);
+}
+
+
+@media(min-width:76.8rem){
+    main{
+         background-image: url(./images/pattern-background-desktop.svg);
+         background-repeat: no-repeat;
+    }
+
+    .order-card{
+        max-width: 45rem;
+    }
+    .order-card--img{
+        max-height: 22rem;
+    }
+
+    .order-card--wrapper{
+        padding: 4.5rem;
+    }
+
+    .order-card--title{
+        padding: 0;
+        font-size: 2.8rem;
+    }
+
+    .order-card--info{
+        font-size: 1.6rem;
+        margin: 1.7rem 0 2rem 0;
+    }
+
+    .order-card--reminder{
+        margin: 0 0 3.2rem 0;
+        justify-content: flex-start;
+        padding: 2.5rem;
+    }
+    .order-card--price{
+        margin-right: 9.4rem;
+    }
+
+    .order-card--plan{
+        font-size: 1.6rem;
+    }
+
+    .order-card--total{
+        font-size: 1.6rem;
+    }
+
+    .order-card--change-btn{
+        font-size: 1.4rem;
+    }
+
+    .order-card__buttons{
+        margin: 0;
+    }
+    .order-card--btn-pay{
+        padding: 1.5rem 10rem;
+        font-size: 1.5rem;
+        margin-bottom: 3.2rem;
+    }
+}
