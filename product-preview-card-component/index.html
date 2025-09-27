@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/style.css" />
+    <title>Frontend Mentor | Product preview card component</title>
+  </head>
+  <body>
+    <main class="min-h-screen w-full flex flex-col items-center justify-center bg-Cream">
+      <section>
+        <article class="my-7 mx-4 max-w-sm bg-White rounded-2xl overflow-hidden lg:flex lg:items-center lg:justify-center lg:min-w-[600px] lg:h-[450px]">
+            <picture class="w-full h-full">
+              <source
+                srcset="./src/images/image-product-desktop.jpg"
+                media="(min-width: 1024px)"
+              />
+              <img
+                src="./src/images/image-product-mobile.jpg"
+                alt="Gabrielle Essence Eau de Parfume Picture"
+                class="block w-full h-full lg:min-w-[300px]"
+                
+              />
+            </picture>
+          <div class="p-6 lg:p-8">
+            <span class="text-xs text-Grey font-Montserrat font-medium tracking-[5px] uppercase">Perfume</span>
+            <h1 class="mt-3 mb-4 text-[2rem] text-Black font-Fraunces font-bold leading-[2rem] lg:mt-5 lg:mb-6">Gabrielle Essence Eau De Parfum</h1>
+            <p class="text-sm text-Grey font-Montserrat font-medium leading-[23px]">
+              A floral, solar and voluptuous interpretation composed by Olivier
+              Polge, Perfumer-Creator for the House of CHANEL.
+            </p>
+            <div class="mt-6 mb-5 flex items-center gap-5 lg:mb-8">
+              <span class="text-[2rem] text-Green500 font-Fraunces font-bold leading-[2rem] ">$149.99</span>
+              <span class="text-[0.813rem] text-Grey font-Montserrat font-medium leading-[1.438rem] line-through">$169.99</span>
+            </div>
+            <a class="flex items-center gap-3 py-[0.93rem] px-[5.7rem] bg-Green500 hover:bg-Green700 text-sm text-White font-Montserrat font-bold rounded-lg lg:py-[0.938rem] lg:px-[3.87rem]" href="#"><img class="w-[14px] h-4" src="./src/images/icon-cart.svg" alt=""> Add to Cart</a>
+          </div>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
