@@ -26,8 +26,6 @@ Users should be able to:
 
 ![](./preview.jpg)
 
-
-
 ### Links
 
 - Solution URL: [Frontend Mentor Solution Page](https://www.frontendmentor.io/solutions/3-column-preview-card-component-with-tailwindcss-vP8EsL9bnw)
@@ -48,17 +46,3 @@ Users should be able to:
 - GitHub - [RobsPalo](https://github.com/RobsPalo)
 - Frontend Mentor - [@RobsPalo](https://www.frontendmentor.io/profile/RobsPalo)
 
-## My process
-
-### Built with
-
-- Semantic HTML5 markup
-- CSS custom properties
-- Tailwind CSS
-- Vite
-- Mobile-first workflow
-
-## Author
-
-- GitHub - [RobsPalo](https://github.com/RobsPalo)
-- Frontend Mentor - [@RobsPalo](https://www.frontendmentor.io/profile/RobsPalo)
