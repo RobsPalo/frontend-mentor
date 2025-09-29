@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme{
+ --color-Gold500: hsl(31, 77%, 52%);
+ --color-Cyan800: hsl(184, 100%, 22%);
+ --color-Green950: hsl(179, 100%, 13%);
+  /* paragraphs */
+ --color-Transparent-White: hsla(0, 0%, 100%, 0.75);
+  /* background, headings, buttons */
+  --color-Gray100 : hsl(0, 0%, 95%);
+  --font-Lexend:"Lexend Deca", sans-serif;
+  --font-Shoulders:"Big Shoulders", sans-serif;
+}
+
+
+@layer base{
+  body{
+    font-size: 0.938rem;
+  };
+  h2{
+    font-family: var(--font-Shoulders);
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-white);
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 2.188rem;
+    margin-bottom: 1.563rem;
+  }
+
+  p,a{
+    font-family: var(--font-Lexend);
+    font-size: 0.938rem;
+    color: var(--color-white);
+    line-height: 25px;
+  }
+}
+
+@layer components{
+  .img{
+    @apply block max-w-full h-10 w-16
+  }
+
+  .article-layout{
+    @apply p-12 flex flex-col items-start h-full lg:flex-1;
+  }
+
+   .btn{
+    @apply py-3 px-[1.969rem] border rounded-3xl bg-white mt-6 lg:mt-[5.188rem];
+   }
+
+ 
+}
+
+@layer utilities{
+  .base-flex{
+    @apply flex flex-col items-center lg:flex-row;
+  }
+
+  .base-section{
+    @apply w-[20.438rem] lg:w-[57.5rem] lg:h-[31.25rem] lg:mt-[10.688rem] lg:mb-[8.063rem] lg:mx-[16.25rem]
+  }
+
+  .btn:hover{
+    @apply border-2 text-white bg-transparent;
+  }
+
+}
