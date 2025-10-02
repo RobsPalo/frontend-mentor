@@ -15,6 +15,7 @@ You can find each project in its own folder and access the deployed version thro
 - **[Order Summary Component](order-summary-component/)**
 - **[Ping Cooming Soon Page](ping-cooming-soon-page/)**
 - **[Three Columns Card](three-column-card/)**
+- **[Stats Preview Columns Card](stats-preview-card-component/)**
 - More projects will be added as I complete new challenges.
 
 ## How to View Projects

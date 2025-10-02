@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --color-WhiteHeading: hsl(0, 0%, 100%);
+  --color-WhiteParagraph: hsla(0, 0%, 100%, 0.75);
+  --color-WhiteStat: hsla(0, 0%, 100%, 0.6);
+  --color-Black: #0a0c1c;
+  --color-card: #1b1937;
+  --color-Purple: #ab5cdb;
+  --color-Overlay:#81328e85;
+  --font-Inter: "Inter", sans-serif;
+  --font-Lexend: "Lexend Deca", sans-serif;
+}
+
+@layer base {
+  body {
+    font-size: 0.938rem;
+    font-family: var(--font-Inter);
+  }
+}
+
+@layer utilities {
+  .overlay {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--color-Overlay);
+    overflow: hidden;
+  }
+
+  .border-img {
+    @apply rounded-t-lg lg:rounded-none lg:rounded-r-lg;
+  }
+  .border-card {
+    @apply rounded-b-lg lg:rounded-none lg:rounded-l-lg;
+  }
+}
